@@ -1,0 +1,21 @@
+input{
+    flex-direction: row;
+}
+
+button{
+
+    position: relative;
+
+    left: 990px;
+
+    top: 50px;
+}
+
+div.arriba p{
+
+    position: relative;
+
+    left: 500px;
+
+    display: inline-block;
+}
