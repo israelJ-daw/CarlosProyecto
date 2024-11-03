@@ -1,155 +1,362 @@
-/* Estilos Generales */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    background-color: #f5f5f5;
-}
+    body   {
+        font-family: DaFont;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        background-color: #3d3535; 
+    }
 
-header.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-header .logo img {
-    height: 50px;
-}
-
-header nav ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: #333;
-}
-
-.cta-buttons .btn {
-    padding: 8px 16px;
-    margin-left: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.btn-outline {
-    background-color: transparent;
-    border: 2px solid #333;
-    color: #333;
-}
-
-.btn-primary {
-    background-color: #333;
-    color: #fff;
-    border: none;
-}
+    h1, h2 , h3,  h4 {
+        color: #FFD700;
+        font-family: DaFont;
+        text-align: center;
+    }
 
 
-.landing {
-    text-align: center;
-    padding: 40px 20px;
-    background-color: #fafafa;
-}
+    header.header {
+        font-family: DaFont;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 40px;
+        background-color: #3d3535;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
 
-.landing h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-}
+    header .logo img {
+        height: 122px;
+        display: flex;
+        justify-content: center;
+        
+    }
 
-.landing .filters {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    margin: 20px 0;
-}
+    header nav ul {
+        font-family: DaFont;
+        display: flex;
+        list-style: none;
+        gap: 20px;
+    }
 
-.filters input {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
+    header nav ul li a {
+        font-family: DaFont;
+        text-decoration: none;
+        color: #ffffff;
+    }
 
-.resultados {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+    .botones button {
+        font-family: DaFont;
+        padding: 8px 16px;
+        margin-left: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
 
-.resultado {
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 180px;
-    text-align: center;
-}
+    .header .registrar {
+        font-family: DaFont;
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+    
+    }
 
-.resultado-item img, .foto-viaje img {
-    width: 100%;
-    border-radius: 8px;
-}
+    .header .inicia {
+        font-family: DaFont;
+        background-color: black;
+        color: #fff;
+        border: none;
+    }
 
-/* Productos Populares */
-.productos-populares {
-    padding: 40px 20px;
-    text-align: center;
-}
 
-.productos-populares h2 {
-    font-size: 1.8em;
-    margin-bottom: 20px;
-}
+    .busqueda {
+        font-family: DaFont;
+        font-family: DaFont;
+        background-image: url(Imagenes/fondo.jpeg);
+        text-align: center;
+        padding: 40px 20;
+        background-image: url(/Imagenes/mordor.jpeg);
+        background-size: cover contain;
+        
+        background-position: center;
+        
+    }
 
-.productos-grid {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
+    .busqueda h1 {
+        font-family: DaFont;
+        font-size: 2em;
+        margin-bottom: 10px;
+        color: white;
+    }   
 
-.producto-item {
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 8px;
-    width: 180px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
 
-/* Footer */
-.footer {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 20px;
-    text-align: left;
-}
+    .busqueda p {
+        font-family: DaFont;
+        color: white;
+    }
 
-.footer-columns {
-    display: flex;
-    justify-content: space-between;
-}
+    .busqueda .filters {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin: 20px 0;
+    }
 
-.footer-column h4 {
-    margin-bottom: 10px;
-}
+    .filters input {
+        font-family: DaFont;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    .resultados {
+        font-family: DaFont;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 10px; 
+        justify-content: center; 
+        flex-wrap: wrap; 
+    }
+    
+    .resultado {
+        font-family: DaFont;
+        background-color: rgba(245, 245, 245, 0.2); 
+        border-radius: 10px;
+        padding: 15px; 
+        border-radius: 8px;
+        width: 180px; 
+        text-align: center; 
+        
+        
+    }
+    
+    .resultado img {
+        font-family: DaFont;
+        width: 100%;
+        border-radius: 8px; 
+        height: auto; 
+    }
 
-.footer-column ul {
-    list-style: none;
-    padding: 0;
-}
+    .resultado p {
+        font-family: DaFont;
+        color: white
+    }
+    
+    
 
-.footer-column ul li a {
-    color: #ccc;
-    text-decoration: none;
-}
+    .servicios {
+        font-family: DaFont;
+        padding: 40px 20px;
+        text-align: center;
+    }
 
-.footer-column ul li a:hover {
-    color: #fff;
-}
+    .servicios h2 {
+        font-family: DaFont;
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+
+    .servicios-grid {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .servicios-item-magos{
+        font-family: DaFont;
+        background-color: #fffafa;
+        padding: 15px;
+        border-radius: 60px;
+        width: 180px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        overflow: hidden; 
+    }
+    
+    .servicios-item-magos img {
+        font-family: DaFont;
+        width: 100%;
+        height: 150px; 
+        object-fit: cover; 
+        border-radius: 20px; 
+    }
+
+
+    .servicios-item-elfos{
+        font-family: DaFont;
+        background-color: #fffafa;
+        padding: 15px;
+        border-radius: 60px;
+        width: 180px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        overflow: hidden; 
+    }
+    
+    .servicios-item-elfos img {
+        font-family: DaFont;
+        width: 100%;
+        height: 150px; 
+        object-fit: cover; 
+        border-radius: 20px; 
+    }
+
+    .servicios-item-ogros{
+        font-family: DaFont;
+        background-color: #fffafa;
+        padding: 15px;
+        border-radius: 60px;
+        width: 180px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        overflow: hidden; 
+    }
+    
+    .servicios-item-ogros img {
+        font-family: DaFont;
+        width: 100%;
+        height: 150px; 
+        object-fit: cover; 
+        border-radius: 20px; 
+    }
+
+
+    .Lugares-populares{
+        font-family: DaFont;
+        padding: 40px 20px;
+        text-align: center;
+
+    }
+    .lugares{
+        display: flex;
+        align-items: center;
+        max-width: 1000px;
+     
+    }
+
+    .texto{
+        color: white;
+        
+    }
+
+
+    .lugares img{
+        display: flex;
+        align-items: center;
+        max-width: 1000px;
+        border: 1px solid;
+        border-color: #FFD700;
+     
+    }
+
+    .servicios-item-magos, .servicios-item-elfos, .servicios-item-ogros  .lugares img{
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .servicios-item-magos:hover,
+    .servicios-item-elfos:hover,
+    .servicios-item-ogros:hover {
+        transform: scale(1.10); 
+        background-color: red;
+    }
+
+    .lugares img:hover{
+        transform: scale(1.10);
+    }
+
+
+
+    .testimonios {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: DaFont;
+    }
+    
+    .testimonio {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 15px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .usuario {
+        flex: 1;
+        margin-right: 15px;
+    }
+    
+    .usuario img {
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+    }
+    
+    .reseña {
+        flex: 3;
+        color: white;
+    }
+    
+    .estrellas {
+        font-size: 20px;
+        color: gold;
+    }
+
+    .contactos{
+        
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 15px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .formulario input{
+        display: inline-block;
+        width: 200px;
+        height: 50px;
+    }   
+
+    .formulario button{
+        height: 30px;
+        width: 130px;
+        background-color:#FFD700;
+    }
+
+
+    .oficina{
+        display: flex;  
+    }
+
+
+    
+
+
+    /* Footer */
+    .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 40px 20px;
+        text-align: left;
+    }
+
+    .footer-columns {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-column h4 {
+        margin-bottom: 10px;
+    }
+
+    .footer-column ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .footer-column ul li a {
+        color: #ccc;
+        text-decoration: none;
+    }
+
+    .footer-column ul li a:hover {
+        color: #fff;
+    }

@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Pagina principal</title>
     
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,10 +14,9 @@
     </head>
     <body>
 
-        <!-- Encabezado con logo y navegación -->
         <header class="header">
             <div class="logo">
-                <img src="logo.png" alt="Logo Tierra Media">
+                <img src="/Imagenes/logo.jpeg">
             </div>
             <nav>
                 <ul>
@@ -27,54 +26,160 @@
                     <li><a href="#">Recursos</a></li>
                     <li><a href="#">Precios</a></li>
                 </ul>
-                <div class="cta-buttons">
-                    <button class="btn btn-outline">Iniciar sesión</button>
-                    <button class="btn btn-primary">Registrarse</button>
+                <div class="botones">
+                    <button class="inicia">Iniciar sesión</button>
+                    <button class="registrar">Registrarse</button>
                 </div>
             </nav>
         </header>
-    
-        <!-- Sección principal con filtros y hero banner -->
-        <section class="landing">
+
+        <div class="busqueda">
             <h1>Encuentra Tu Estancia</h1>
             <p>Encuentra tu próximo viaje en las tierras de Mordor.</p>
             <div class="filters">
                 <input type="text" placeholder="Origen">
                 <input type="text" placeholder="Destino">
-                <input type="number" placeholder="N° de Pasajeros">
+                <input type="number" placeholder="N° de Pasajeros" min="1"> 
                 <input type="date" placeholder="Fecha de entrada">
                 <input type="date" placeholder="Fecha de salida">
-            </div>
+            </div>   
             <h2>Resultados</h2>
             <div class="resultados">
                 <div class="resultado">
-                    <h3>Título del Viaje</h3>
-                    <p>Descripción breve del viaje y sus detalles importantes.</p>
+                    <h3>Gondor</h3>
+                    <img src="/Imagenes/Gondor.jpg" alt="Gondor"> 
+                    <p>Gondor es una región muy impresionante en Mordor.</p> 
                 </div>
-                <!-- Añadir más .resultado-item según se requiera -->
-                <div class="foto-viaje">
-                    <p>Foto de los viajes</p>
+                <div class="resultado">
+                    <h3>Mordor</h3>
+                    <img src="Imagenes/mordor2.jpeg" alt="Mordor">
+                    <p>Mordor es conocido por sus paisajes áridos y su gran volcán.</p>
+                </div>
+                <div class="resultado">
+                    <h3>Rohan</h3>
+                    <img src="/Imagenes/rohan.jpeg" alt="Rohan">
+                    <p>Rohan es famosa por sus vastas praderas y sus caballos.</p>
+                </div>
+                
+            </div>
+        </div>
+        
+ 
+
+        
+        <div class="servicios">
+            <h2>¿Que Ofrecemos?</h2>
+            <h2>Guias Personalizados</h2>
+            <div class="servicios-grid">
+                <div class="servicios-item-magos">
+                    <img src="/Imagenes/Magos.jpeg" alt="Magos">
+                    <h3>Magos</h3>
+                    <button>Contratar</button>
+                    <p>Los Magos son unos excelentes guias porque con sus poderes podra protegerte con su trucos, ademas, no le tiene miedo a nada y te llevara a descrubir los misterios de mordor</p>
+                </div>
+                <div class="servicios-item-elfos">
+                    <img src="/Imagenes/gollum.jpeg" alt="Elfos">
+                    <h3>Gollum</h3>
+                    <button>Contratar</button>
+                    <p>Gollum es unos Guias para los mas atevidos, ya que se conocen todos los escondides y rutas secretas de mordor, podras ir a sitios inexplorado</p>
+                 
+                </div>
+                <div class="servicios-item-ogros">
+                    <img src="/Imagenes/Ogros.jpeg" alt="Ogros">
+                    <h3>Ogros</h3>
+                    <button>Contratar</button>
+                    <p>Los Ogros son los Guias mas seguros ya que son alidos de casi todos, podras visitar todos los campamentos de mordor</p>
                 </div>
             </div>
-        </section>
-    
-        <!-- Sección de Productos Populares -->
-        <section class="productos-populares">
-            <h2>Top Productos</h2>
-            <div class="productos-grid">
-                <div class="producto-item">
-                    <img src="producto1.jpg" alt="Producto 1">
-                    <h3>Título del Producto</h3>
-                    <p>Breve descripción del producto y sus ventajas.</p>
+        </div>
+
+
+        <div class="Lugares-populares">
+            <h1>Lugares Populares</h1>
+            <h2>Estos son algunos de los lugares mas visitados de mordor</h2>
+            <div class="lugares">
+                <img src="/Imagenes/torre.jpeg" alt="lugar">
+                <p class="texto">La Torre de Barad-dûr, también conocida como la Torre de Sauron, es un imponente símbolo del poder maligno en Mordor, con su arquitectura oscura y su Ojo omnipresente que vigila la Tierra Media. Esta fortaleza no solo alberga los planes de Sauron para conquistar el mundo, sino que también es un centro de reclutamiento para sus ejércitos de criaturas oscuras</p>
+            </div>    
+
+            <div class="lugares">
+                <img src="/Imagenes/monte.jpeg" alt="lugar">
+                <p class="texto">El Monte del Destino, también conocido como Orodruin, es un volcán temido en el corazón de Mordor, famoso por ser el lugar donde se forjó el Anillo Único. Esta montaña no solo representa la fuente del poder de Sauron, sino que también simboliza la destrucción y la redención, ya que su lava ardiente es el único medio para destruir el Anillo</p>
+
+                
+
+            </div>   
+            <div class="lugares">
+                <img src="/Imagenes/gorgoroth.jpeg" alt="lugar">
+                <p class="texto">Un viaje épico a la Meseta de Gorgoroth! Las vistas volcánicas y el entorno desolado nos dejaron sin aliento. La inmensidad de las tierras volcánicas de Gorgoroth ofrece una experiencia única y sobrecogedora. Cada esquina de este paisaje oscuro y formidable nos recuerda las historias y leyendas que envuelven Mordor. Definitivamente, un destino para los aventureros que buscan explorar lo desconocido y lo místico. ¡Una experiencia inolvidable</p>
+            </div>   
+                
+
+            <h1>Testimonios</h1>
+
+
+            <div class="testimonio">
+                
+                <div class="usuario">
+                    <h3>Paquito Chocolatero</h3>
+                    <p>Fecha del viaje: Julio 2024</p>
                 </div>
-                <div class="producto-item">
-                    <img src="producto2.jpg" alt="Producto 2">
-                    <h3>Título del Producto</h3>
-                    <p>Breve descripción del producto y sus ventajas.</p>
+                <div class="reseña">
+                    <p>Viajar a Mordor fue una experiencia única, pero definitivamente no es para los débiles de corazón. La tierra es árida y la atmósfera es pesada, lo que puede ser desalentador al principio. Sin embargo, la majestuosidad del Monte del Destino y el misterioso paisaje son impresionantes.</p>
+                    <div class="estrellas">
+                        ★★★★☆
+                    </div>
                 </div>
             </div>
-        </section>
     
+
+            <div class="testimonio">
+                <div class="usuario">
+                    <h3>Pepito Pistacho</h3>
+                    <p>Fecha del viaje: Agosto 2023</p>
+                </div>
+                <div class="reseña">
+                    <p>Mi viaje a Mordor superó todas mis expectativas. Desde el momento en que llegamos, quedamos impresionados por la belleza salvaje del paisaje. Aunque el clima puede ser un poco extremo, la experiencia de estar tan cerca de la historia de la Tierra Media es increíble.
+
+                        La caminata por los campos de lava y las antiguas ruinas de Barad-dûr fue como un sueño hecho realidad. Además, tuvimos la suerte de encontrar un grupo de guías locales que compartieron historias fascinantes sobre la región.</p>
+                    <div class="estrellas">
+                        ★★★★★
+                     </div>
+                </div>
+            </div>
+
+            <h1>Contactos</h1>
+
+            <div class="contactos">
+                
+                <div class="contacto">
+                    <h2>Correo Electronico: viajesMordor@viajesMordor.com</h2>
+
+                    <h2>Telefono: +34 123 465 789</h2>
+                    <h2>Formulario de Contacto</h2>
+                    <div class="formulario">
+                        
+                        <input type="text" name="nombre" placeholder="Nombre">
+                        <input type="text" name="apellido" placeholder="Apellido" >
+                        <input type="email" name="correo" placeholder="Correo Electrónico">
+                        <input type="text" name="mensaje" placeholder="Escriba Su Consulta">
+
+                        <button type="button">Enviar</button>
+                        <h2>Donde Nos Encontramos</h2>
+                        <div class="oficina">
+                        <img src="/Imagenes/oficinas.jpeg" width="400px" height="300px"> 
+                        </div>
+                    </div>
+
+            </div>        
+            </div>
+
+
+
+
+        </div>    
+
+        
         <!-- Footer -->
         <footer class="footer">
             <div class="footer-columns">
